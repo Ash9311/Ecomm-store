@@ -11,6 +11,54 @@
       "email": "ash2@seller.com",
       "password": "abc2@123",
       "id": 2
+    },
+    {
+      "name": "",
+      "password": "ashutosh",
+      "email": "ashutosh@gmail.com",
+      "id": 3
+    },
+    {
+      "name": "",
+      "password": "ashutosh",
+      "email": "ashutosh@gmail.com",
+      "id": 4
+    },
+    {
+      "name": "",
+      "password": "ashutosh",
+      "email": "ashutosh@gmail.com",
+      "id": 5
+    },
+    {
+      "name": "",
+      "password": "ashutosh",
+      "email": "ashutosh@gmail.com",
+      "id": 6
+    },
+    {
+      "name": "",
+      "password": "ashutosh",
+      "email": "ashutosh@gmail.com",
+      "id": 7
+    },
+    {
+      "name": "tony",
+      "password": "ashutosh",
+      "email": "tony@gmail.com",
+      "id": 8
+    },
+    {
+      "name": "peter",
+      "password": "ashutosh",
+      "email": "peter@gmail.com",
+      "id": 9
+    },
+    {
+      "name": "bruce",
+      "password": "ashutosh",
+      "email": "bruce@gmail.com",
+      "id": 10
     }
   ]
 }
