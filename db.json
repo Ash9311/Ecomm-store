@@ -143,6 +143,12 @@
       "password": "ashutosh",
       "email": "nobita@gmail.com",
       "id": 24
+    },
+    {
+      "name": "asu",
+      "password": "ashutosh",
+      "email": "asu@gmail.com",
+      "id": 25
     }
   ]
 }
