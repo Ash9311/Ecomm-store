@@ -131,6 +131,18 @@
       "password": "ashutosh",
       "email": "ashutosh@gmail.com",
       "id": 22
+    },
+    {
+      "name": "jaggu",
+      "password": "ashutosh",
+      "email": "jaggu@gmail.com",
+      "id": 23
+    },
+    {
+      "name": "nobita",
+      "password": "ashutosh",
+      "email": "nobita@gmail.com",
+      "id": 24
     }
   ]
 }
