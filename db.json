@@ -150,5 +150,25 @@
       "email": "asu@gmail.com",
       "id": 25
     }
+  ],
+  "products": [
+    {
+      "name": "samsung m 40",
+      "price": "25000",
+      "color": "monile",
+      "category": "white",
+      "description": "worth it",
+      "imageURL": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.91mobiles.com%2Fhi%2Fsamsung-galaxy-m40-price-in-india&psig=AOvVaw3t2LRtZLwmBN1P2zdWRB23&ust=1678081837583000&source=images&cd=vfe&ved=0CA0QjRxqFwoTCNDLwKWMxP0CFQAAAAAdAAAAABAH",
+      "id": 1
+    },
+    {
+      "name": "iphone 15",
+      "price": "150000",
+      "color": "blue",
+      "category": "mobile",
+      "description": "dogla",
+      "imageURL": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.yankodesign.com%2F2022%2F12%2F12%2Fnew-iphone-15-pro-max-concept-shows-a-redesigned-camera-layout-with-variable-aperture-and-usb-c-thunderbolt%2F&psig=AOvVaw1MQS9rS5VP6Rj2Xi0y-hox&ust=1678082356802000&source=images&cd=vfe&ved=0CA0QjRxqFwoTCMC_sJ2OxP0CFQAAAAAdAAAAABAD",
+      "id": 2
+    }
   ]
 }
