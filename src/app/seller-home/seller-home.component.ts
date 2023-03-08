@@ -8,14 +8,32 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./seller-home.component.css']
 })
 export class SellerHomeComponent implements OnInit {
-  productList: undefined|product[]
+  productList: undefined|product[];
+  productMessage:undefined | string;
   constructor(private product:ProductService) { }
 
   ngOnInit(): void {
-    this.product.productList().subscribe((result)=>{
-      console.log(result);
-      this.productList = result;
-    })
+    this.activate();
+  }
+  activate(){
+  this.product.productList().subscribe((result)=>{
+    console.log(result);
+    this.productList = result;
+  })
+}
+
+  deleteProduct(id:number){
+    console.log("test id",id);
+this.product.deleteProduct(id).subscribe((result)=>{
+  if(result){
+    this.productMessage="Product is deleted";
+    this.activate();
+  }
+})
+    
+setTimeout(()=>{
+  this.productMessage=undefined;
+},3000);
   }
 
 }
