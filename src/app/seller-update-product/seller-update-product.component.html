@@ -1,6 +1,6 @@
 <div class="update-product">
     <h1>Update Product</h1>
-   
+   <p class="p_message">{{productMessage}}</p>
 <form #addProduct="ngForm" (ngSubmit)="submit(addProduct.value)" class="common-form">
     <input type="text" class="form-input" placeholder="Enter product Name" name="name" ngModel="{{productData?.name}}"/>
     <input type="text" class="form-input" placeholder="Enter product Price" name="price" ngModel="{{productData?.price}}"/>
@@ -10,4 +10,4 @@
     <input type="text" class="form-input" placeholder="Enter product Image URL" name="imageURL" ngModel="{{productData?.imageURL}}"/>
     <button class="form-button">Update Product</button>
 </form>
-</div>
+</div> 
