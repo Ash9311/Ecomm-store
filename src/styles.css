@@ -37,3 +37,47 @@ body{
 .p_message{
     color: green;
 }
+
+.carousel-caption{
+    background-color: #00000082;
+    border-radius: 5px;
+}
+
+.carousel-control-next, .carousel-control-prev{
+    background-color: black;
+    border-radius: 5px;
+}
+
+/* .carousel-control-next, .carousel-control-prev {
+    position: absolute;
+    top: 10rem;
+    bottom: 10rem;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 7%;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+    background: 0 0;
+    border: 0;
+    opacity: .5;
+    transition: opacity .15s ease;
+} */
+
+    /* position: absolute;
+    top: 12rem;
+    bottom: 23rem;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 4%;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+    background: 0 0;
+    border: 0;
+    opacity: .5;
+    transition: opacity .15s ease; */
