@@ -16,88 +16,16 @@
 <div class="product-list-wrapper">
 	<h1>Trendy Products</h1>
 	<div class="row">
-		<div class="col-sm-3">
+		<div class="col-sm-3" *ngFor="let item of trendyProducts">
 			<div class="product-item">
-				<img src="https://img.freepik.com/free-photo/close-up-hand-holding-smartphone_23-2149148857.jpg" alt="">
+				<img src="{{item.imageURL}}" alt="">
 				<div class="product-details">
-					<h6 class="name-head">New Apple Mobile</h6>
+					<h6 class="name-head">{{item.name}}</h6>
 					<div class="product-price">
-						<h6>Price: 100000</h6>
+						<h6>Price: {{item.price}}</h6>
 					</div>
 					<div class="product-color">
-						<h6>Color: blue</h6>
-					</div>
-				</div>
-				<div class="product-footer">
-					<a href="">View Details</a>
-					<a href="">Add to Cart</a>
-				</div>
-			</div>
-		</div>
-		<div class="col-sm-3">
-			<div class="product-item">
-				<img src="https://img.freepik.com/free-photo/close-up-hand-holding-smartphone_23-2149148857.jpg" alt="">
-				<div class="product-details">
-					<h6 class="name-head">New Apple Mobile</h6>
-					<div class="product-price">
-						<h6>Price: 100000</h6>
-					</div>
-					<div class="product-color">
-						<h6>Color: blue</h6>
-					</div>
-				</div>
-				<div class="product-footer">
-					<a href="">View Details</a>
-					<a href="">Add to Cart</a>
-				</div>
-			</div>
-		</div>
-		<div class="col-sm-3">
-			<div class="product-item">
-				<img src="https://img.freepik.com/free-photo/close-up-hand-holding-smartphone_23-2149148857.jpg" alt="">
-				<div class="product-details">
-					<h6 class="name-head">New Apple Mobile</h6>
-					<div class="product-price">
-						<h6>Price: 100000</h6>
-					</div>
-					<div class="product-color">
-						<h6>Color: blue</h6>
-					</div>
-				</div>
-				<div class="product-footer">
-					<a href="">View Details</a>
-					<a href="">Add to Cart</a>
-				</div>
-			</div>
-		</div>
-		<div class="col-sm-3">
-			<div class="product-item">
-				<img src="https://img.freepik.com/free-photo/close-up-hand-holding-smartphone_23-2149148857.jpg" alt="">
-				<div class="product-details">
-					<h6 class="name-head">New Apple Mobile</h6>
-					<div class="product-price">
-						<h6>Price: 100000</h6>
-					</div>
-					<div class="product-color">
-						<h6>Color: blue</h6>
-					</div>
-				</div>
-				<div class="product-footer">
-					<a href="">View Details</a>
-					<a href="">Add to Cart</a>
-				</div>
-			</div>
-		</div>
-		<div class="col-sm-3">
-			<div class="product-item">
-				<img src="https://img.freepik.com/free-photo/close-up-hand-holding-smartphone_23-2149148857.jpg" alt="">
-				<div class="product-details">
-					<h6 class="name-head">New Apple Mobile</h6>
-					<div class="product-price">
-						<h6>Price: 100000</h6>
-					</div>
-					<div class="product-color">
-						<h6>Color: blue</h6>
+						<h6>Color: {{item.color}}</h6>
 					</div>
 				</div>
 				<div class="product-footer">
