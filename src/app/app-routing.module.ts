@@ -7,6 +7,7 @@ import { HomeComponent } from './home/home.component';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { SearchComponent } from './search/search.component';
+import { ProductDetailsComponent } from './product-details/product-details.component';
 
 const routes: Routes = [
   {
@@ -34,6 +35,10 @@ const routes: Routes = [
   {
     component:SearchComponent,
     path:'search/:query'
+  },
+  {
+    component:ProductDetailsComponent,
+    path:'details/:productId'
   }
 ];
 
