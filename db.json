@@ -183,6 +183,12 @@
       "email": "ashutosh@gmail.com",
       "password": "ashutosh",
       "id": 2
+    },
+    {
+      "name": "ashut",
+      "email": "ashutosh@gmail.com",
+      "password": "ashutosh",
+      "id": 3
     }
   ]
 }
