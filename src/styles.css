@@ -57,6 +57,16 @@ body{
     
 }
 
+.invalid-input{
+    color: red;
+    font-size: 12px;
+    margin-top:20px ;
+}
+
+button:disabled{
+    cursor: not-allowed;
+}
+
     /* position: absolute;
     top: 12rem;
     bottom: 23rem;
