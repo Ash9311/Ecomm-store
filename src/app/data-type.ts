@@ -1,3 +1,4 @@
+
 export interface SignUp{
     name: string,
     password: string,
@@ -32,4 +33,12 @@ export interface cart{
     quantity:undefined | number,
     userId: number,
     productId:number
+}
+
+export interface priceSummary{
+    price:number,
+    discount:number,
+    tax:number,
+    delivery:number,
+    total:number
 }
