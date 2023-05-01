@@ -67,6 +67,9 @@ button:disabled{
     cursor: not-allowed;
 }
 
+.max-width{
+    width: 100%;
+}
     /* position: absolute;
     top: 12rem;
     bottom: 23rem;
