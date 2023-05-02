@@ -1,3 +1,4 @@
+import { Router } from '@angular/router';
 import { ProductService } from '../services/product.service';
 import { order, product } from './../data-type';
 import { Component, OnInit } from '@angular/core';
@@ -9,7 +10,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CheckoutComponent implements OnInit {
 totalPrice:number | undefined;
-  constructor(private product:ProductService) { }
+  constructor(private product:ProductService,private router:Router) { }
 
   ngOnInit(): void {
     
@@ -38,6 +39,7 @@ totalPrice:number | undefined;
       this.product.orderNow(orderData).subscribe((result)=>{
         if(result){
           alert('order placed')
+          this.router.navigate(['/my-orders']);
         }
       })
     }
