@@ -366,5 +366,15 @@
       "productId": 2,
       "id": 18
     }
+  ],
+  "orders": [
+    {
+      "email": "ashutosh@gmail.com",
+      "address": "mulky",
+      "contact": "100",
+      "totalPrice": 400100,
+      "userId": 1,
+      "id": 1
+    }
   ]
 }

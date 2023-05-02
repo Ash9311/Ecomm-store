@@ -3,17 +3,17 @@
     <div class="row">
         <div class="col-sm-7 shipping-address">
             <h3>Add shipping Address</h3>
-            <form #orderData="ngForm" class="common-form">
+            <form #orderData="ngForm" class="common-form" (ngSubmit)="orderNow(orderData.value)">
                 <input type="text" class="form-input" placeholder="Enter User Email" name="email" ngModel  #email="ngModel" required email=""/>
-                <input type="text" class="form-input" placeholder="Enter User Address" name="address" />
-                <input type="text" class="form-input" placeholder="Enter Contact Details" name="contact" />
+                <input type="text" class="form-input" placeholder="Enter User Address" name="address" ngModel />
+                <input type="text" class="form-input" placeholder="Enter Contact Details" name="contact" ngModel />
                 <button class="form-button">Order Now</button>
             </form>
         </div>
         <div class="col-sm-5">
-            <h3>Total Amount: 50000</h3>
+            <h3>Total Amount: {{totalPrice}}</h3>
             <h4>Payment Method: <b>Pay on Delivery</b></h4>
            
-        </div>
+        </div>  
     </div>
 </div>
