@@ -85,14 +85,14 @@ export class ProductDetailsComponent implements OnInit {
 
   removeFromCart(productId: number) {
     if (!localStorage.getItem('user')) {
-      this.product.removeItemFromCart(productId);
-      
+      this.product.removeItemFromCart(productId); 
     }
     else {
-      let user = localStorage.getItem('user');
-      let userId = user && JSON.parse(user).id
+     
       console.log(this.cartData);
       this.cartData && this.product.removeToCart(this.cartData.id).subscribe((result)=>{
+        let user = localStorage.getItem('user');
+        let userId = user && JSON.parse(user).id;
         this.product.getCartList(userId)
       });
       

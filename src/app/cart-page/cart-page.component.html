@@ -16,11 +16,11 @@
                     <span>Quantity: {{cart.quantity}} </span>
                 </li>
                 <li>
-                    <button class="form-button">Remove to cart</button>
+                    <button class="form-button" (click)="removeToCart(cart.id)">Remove to cart</button>
                 </li>
             </ul>
         </div>
-        <div class="col-sm-3 summary">
+        <div class="col-sm-4 summary">
             <h3>Summary</h3>
             <ul>
                 <li>
