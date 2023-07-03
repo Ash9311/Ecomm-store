@@ -16,8 +16,7 @@ orderMsg:string|undefined;
 
   ngOnInit(): void {
     
-    this.product.currentCart().subscribe((result) => {
-   
+    this.product.currentCart().subscribe((result) => {   
       let price = 0;
       this.cartData = result;
       result.forEach((item) => {
@@ -26,7 +25,6 @@ orderMsg:string|undefined;
         }
       })
     this.totalPrice = price+(price/10)+100-(price/10);
-
     })
   }
 
